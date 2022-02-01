@@ -1,0 +1,30 @@
+{
+    "name": "difra/lib-security",
+    "description": "Filters and sanitizers",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ed Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "dist": {
+        "url": "https://github.com/difra-org/lib-wordforms/archive/1.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/lib-wordforms.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Wordforms.php"
+        ],
+        "psr-4": {
+            "Difra\\Wordforms\\": "src/Wordforms"
+        }
+    }
+}
