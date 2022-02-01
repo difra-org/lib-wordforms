@@ -1,5 +1,5 @@
 {
-    "name": "difra/lib-security",
+    "name": "difra/lib-wordforms",
     "description": "Filters and sanitizers",
     "type": "library",
     "license": "BSD-2-Clause",
