@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Difra\Locales;
+namespace Difra;
 
 use Difra\Wordforms\Common;
 
